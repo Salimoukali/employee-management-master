@@ -83,7 +83,7 @@ public class EmployeeEntity {
         return commentaire;
     }
 
-    public void setCommentaire(String desc) {
+    public void setCommentaire(String commentaire) {
         this.commentaire = commentaire;
     }
 }
