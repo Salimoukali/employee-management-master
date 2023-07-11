@@ -9,6 +9,7 @@ public class EmployeeResponse implements Serializable {
     private String gender;
     private Date dateOfBirth;
     private String address;
+    private String commentaire;
 
     public EmployeeResponse() {
     }
@@ -51,5 +52,13 @@ public class EmployeeResponse implements Serializable {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public String getCommentaire() {
+        return commentaire;
+    }
+
+    public void setCommentaire(String address) {
+        this.commentaire = commentaire;
     }
 }

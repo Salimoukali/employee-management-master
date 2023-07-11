@@ -24,6 +24,9 @@ public class EmployeeEntity {
     @Column(name = "address")
     private String address;
 
+    @Column(name = "commentaire")
+    private String commentaire;
+
     public EmployeeEntity() {
     }
 
@@ -33,6 +36,7 @@ public class EmployeeEntity {
         this.gender = gender;
         this.dateOfBirth = dateOfBirth;
         this.address = address;
+        this.commentaire = commentaire;
     }
 
     public Long getId() {
@@ -73,5 +77,13 @@ public class EmployeeEntity {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public String getCommentaire() {
+        return commentaire;
+    }
+
+    public void setCommentaire(String desc) {
+        this.commentaire = commentaire;
     }
 }

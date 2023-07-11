@@ -8,6 +8,7 @@ public class EmployeeRequest implements Serializable {
     private String gender;
     private Date dateOfBirth;
     private String Address;
+    private String commentaire;
 
     public String getName() {
         return name;
@@ -40,4 +41,9 @@ public class EmployeeRequest implements Serializable {
     public void setAddress(String address) {
         Address = address;
     }
+    public String getCommentaire() {
+        return commentaire;
+    }
+
+    public void setCommentaire(String desc) { commentaire = desc; }
 }
