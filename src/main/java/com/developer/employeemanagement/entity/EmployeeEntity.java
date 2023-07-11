@@ -30,7 +30,7 @@ public class EmployeeEntity {
     public EmployeeEntity() {
     }
 
-    public EmployeeEntity(Long id, String name, String gender, Date dateOfBirth, String address) {
+    public EmployeeEntity(Long id, String name, String gender, Date dateOfBirth, String address, String commentaire) {
         this.id = id;
         this.name = name;
         this.gender = gender;
