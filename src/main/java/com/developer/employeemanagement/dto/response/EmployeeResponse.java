@@ -58,7 +58,7 @@ public class EmployeeResponse implements Serializable {
         return commentaire;
     }
 
-    public void setCommentaire(String address) {
+    public void setCommentaire(String commentaire) {
         this.commentaire = commentaire;
     }
 }
