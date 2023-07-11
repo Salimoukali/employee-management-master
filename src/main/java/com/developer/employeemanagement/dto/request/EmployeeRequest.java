@@ -45,5 +45,5 @@ public class EmployeeRequest implements Serializable {
         return commentaire;
     }
 
-    public void setCommentaire(String desc) { commentaire = desc; }
+    public void setCommentaire(String desc) { commentaire = commentaire; }
 }
